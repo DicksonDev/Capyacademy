@@ -1,0 +1,258 @@
+/*ESTILOS GENERALES INICIO--*/
+
+* {
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+        "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffffff 50%, #e9e9e949 50%);
+    ;
+}
+
+
+.text_contrasena {
+    padding-left: 3em;
+}
+
+.text_recuperar {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(4, 162, 197);
+    ;
+}
+
+/*ESTILO PARA NO DESCUADRAR*/
+
+.boton {
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 1em;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+}
+
+/* ESTILO BOTONES*/
+
+.imagen_login {
+    padding-top: 1em;
+    border-radius: 1em 3em;
+    height: 509px;
+    width: 425px;
+}
+
+/*ESTILO IMAGEN*/
+
+.login_text {
+    font-size: 25px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+/*ESTILO TEXTO LOGIN*/
+
+input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 1em;
+    background: rgba(255, 255, 255, 0.74);
+}
+
+/*ESTILOS INPUTS*/
+
+.aprender_ingles {
+    font-size: 20px;
+}
+
+/*TEXTO APRENDER INGLES ESTILOS*/
+
+/*ESTILOS GENERALES FIN--*/
+
+
+.contenedor {
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTENEDOR FLEXBOS PARA CENTRAR TODO*/
+
+.contenedor_padre {
+    border-radius: 5em;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 850px;
+    height: 500px;
+    background: rgba(208, 246, 255, 0.815);
+}
+
+/*CONTENEDOR PADRE (GRID)*/
+
+/*GRID CONTENEDORES*/
+
+.login {
+    grid-column: 1/6;
+    grid-row: 1;
+}
+
+/*TEXTO LOGIN*/
+
+.text_correo {
+    font-size: 16px;
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+/*TEXTO CORREO*/
+
+.contenedor_hijo1 {
+    grid-column: 1/6;
+    grid-row: 3;
+}
+
+/*IMPUT CORREO*/
+
+.contenedor_hijo2 {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+/*LINK RECUPERAR*/
+
+.contenedor_hijo3 {
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+/*TEXTO CONTRASENA*/
+
+.contenedor_hijo4 {
+    grid-column: 1/6;
+    grid-row: 5;
+}
+
+/*INPUT CONTRASENA*/
+
+.contenedor_hijo5 {
+    padding-top: 5em;
+    grid-column: 1/6;
+    grid-row: 6;
+}
+
+/*BOTON INICIAR SESION*/
+
+.contenedor_hijo6 {
+    padding-top: 1em;
+    grid-column: 1/6;
+    grid-row: 7;
+}
+
+/*BOTON REGISTRARSE*/
+
+.contenedor_hijo7 {
+    grid-column: 6/11;
+    grid-row: 1/11;
+}
+
+/*IMAGEN*/
+
+.contenedor_hijo8 {
+    grid-column: 6/11;
+    grid-row: 10;
+}
+
+/*TEXTO APRENDER INGLES*/
+
+/*///////////////////// RESPONSIVE STYLES /////////////////////*/
+
+@media (max-width: 1000px) {
+    .text_contrasena {
+        padding: 0;
+    }
+
+    .login_text {
+        padding-bottom: 0;
+    }
+
+    .login {
+        grid-column: 6;
+        grid-row: 1;
+    }
+
+    .text_correo {
+        grid-column: 3/6;
+        grid-row: 3;
+    }
+
+    .contenedor_hijo1 {
+        grid-column: 3/6;
+        grid-row: 4;
+    }
+
+    .contenedor_hijo2 {
+        grid-column: 9;
+        grid-row: 6;
+    }
+
+    .contenedor_hijo3 {
+        grid-column: 3/6;
+        grid-row: 6;
+    }
+
+    .contenedor_hijo4 {
+        padding: 0;
+        padding-bottom: 5em;
+        grid-column: 3/6;
+        grid-row: 9;
+    }
+
+    .contenedor_hijo5 {
+        padding: 0;
+        padding-top: 4em;
+        grid-column: 3/5;
+        grid-row: 9/10;
+    }
+
+    .contenedor_hijo6 {
+        padding: 0;
+        grid-column: 3/5;
+        grid-row: 10;
+    }
+
+
+    .contenedor_padre {
+        width: 400px;
+        height: 700px;
+    }
+
+    .imagen_login {
+        height: 300px;
+        width: 400px;
+    }
+
+    .contenedor_hijo7 {
+        grid-column: 1/6;
+        grid-row: 11/20;
+    }
+
+    .contenedor_hijo8 {
+        background-color: #ffffffe5;
+        grid-column: 3/10;
+        grid-row: 19;
+    }
+
+    .aprender_ingles {
+        font-size: 15px;
+    }
+}
+
+/*///////////////////// RESPONSIVE STYLES /////////////////////*/
