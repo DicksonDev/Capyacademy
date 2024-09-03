@@ -1,5 +1,5 @@
 <h1>CapyAcademy</h1>
-<h2>Link:</h2> <a href="https://capyacademy.netlify.app/">CapyAcademy</a>
+<h2>Link: <a href="https://capyacademy.netlify.app/" target="_blank">CapyAcademy</a> </h2>
 <h2>Este proyecto lo realice junto a mi hermano Deiby Vejar</h2>
 
 <p>En el se puede apreciar aplicaciones basicas de etiquetas HTML:</p>
