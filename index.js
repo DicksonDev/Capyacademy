@@ -38,7 +38,7 @@ if (localStorage.getItem('darkmode') === 'true') {
     label_toggle.innerHTML = '<span class="material-symbols-outlined">clear_night</span>'
     label_toggle_logo.src = "imagenes/logocapyacademy.png"
     maletin.src = "imagenes/maletin.png"
-    gorro.src = "imagenes/gorro-de-graduacion .png"
+    gorro.src = "imagenes/gorro-de-graduacion.png"
     pc.src = "imagenes/computadora.png";
 }
 
