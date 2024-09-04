@@ -104,7 +104,6 @@ body {
     min-width: 320px;
     margin: auto;
     text-align: justify;
-    margin-bottom: 5em;
 }
 
 .img {
@@ -117,6 +116,29 @@ body {
 
 .img:hover {
     box-shadow: 0 0.1rem 0.4rem black;
+}
+
+.acordion {
+    max-width: 1000px;
+    min-width: 300px;
+    background-color: rgba(182, 232, 245, 0.815);
+    user-select: none;
+}
+
+.p_acordion {
+    padding: 20px;
+    font-size: 22.4px;
+    background-color: white;
+}
+
+summary {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.title {
+    text-align: left;
 }
 
 /*///////////////////// BODY STYLES /////////////////////*/
@@ -146,6 +168,15 @@ body.darkmodebody footer {
     background-color: #4646468c;
 }
 
+.darkmodebody .acordion {
+    background-color: #4646468c;
+}
+
+.darkmodebody .p_acordion {
+    background-color: #4646468c;
+}
+
+
 body.darkmodebody .img:hover {
     box-shadow: 0 0.1rem 0.4rem white
 }
@@ -158,6 +189,7 @@ body.darkmodebody .img:hover {
     display: flex;
     justify-content: space-around;
     padding: 40px;
+    margin-top: 5em;
     background-color: rgba(182, 232, 245, 0.815);
 }
 

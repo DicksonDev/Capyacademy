@@ -110,6 +110,25 @@ body {
     font-size: 22.4px;
 }
 
+.acordion {
+    max-width: 1000px;
+    min-width: 300px;
+    background-color: rgba(182, 232, 245, 0.815);
+    user-select: none;
+}
+
+.p_acordion {
+    padding: 20px;
+    font-size: 22.4px;
+    background-color: white;
+}
+
+summary {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
 /*///////////////////// BODY STYLES /////////////////////*/
 
 /*///////////////////// DARKBODY STYLES /////////////////////*/
@@ -136,6 +155,14 @@ body.darkmodebody .adjetivepossesive:hover {
 
 body.darkmodebody a {
     color: rgba(255, 255, 255, 0.904)
+}
+
+.darkmodebody .acordion {
+    background-color: #4646468c;
+}
+
+.darkmodebody .p_acordion {
+    background-color: #4646468c;
 }
 
 body.darkmodebody footer {

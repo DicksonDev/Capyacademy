@@ -9,10 +9,6 @@ p {
     text-align: justify;
 }
 
-li {
-    font-size: 22.4px;
-}
-
 /*///////////////////// GENEREAL STYLES /////////////////////*/
 
 /*///////////////////// NAVBAR STYLES /////////////////////*/
@@ -121,6 +117,29 @@ body {
     margin-bottom: 1em;
 }
 
+.li_ejemplos {
+    font-size: 22.4px;
+}
+
+.acordion {
+    max-width: 1000px;
+    min-width: 300px;
+    background-color: rgba(182, 232, 245, 0.815);
+    user-select: none;
+}
+
+.p_acordion {
+    padding: 20px;
+    font-size: 22.4px;
+    background-color: white;
+}
+
+summary {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
 .havequestion {
     border-radius: 1em;
     margin: 0;
@@ -164,6 +183,14 @@ body.darkmodebody .havenegative:hover {
     box-shadow: 0 0.1rem 0.4rem white
 }
 
+.darkmodebody .acordion {
+    background-color: #4646468c;
+}
+
+.darkmodebody .p_acordion {
+    background-color: #4646468c;
+}
+
 body.darkmodebody .havepositive:hover {
     box-shadow: 0 0.1rem 0.4rem white
 }
@@ -176,6 +203,7 @@ body.darkmodebody .havepositive:hover {
     display: flex;
     justify-content: space-around;
     padding: 40px;
+    margin-top: 5em;
     background-color: rgba(182, 232, 245, 0.815);
 }
 

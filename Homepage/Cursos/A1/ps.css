@@ -100,7 +100,7 @@ body {
     max-width: 600px;
     height: auto;
     border-radius: 1em;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     object-fit: cover;
 }
 
@@ -117,6 +117,25 @@ body {
 
 img:hover {
     box-shadow: 0 0.1rem 0.4rem black;
+}
+
+.acordion {
+    max-width: 1000px;
+    min-width: 300px;
+    background-color: rgba(182, 232, 245, 0.815);
+    user-select: none;
+}
+
+.p_acordion {
+    padding: 20px;
+    font-size: 22.4px;
+    background-color: white;
+}
+
+summary {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
 }
 
 
@@ -147,6 +166,14 @@ body.darkmodebody img:hover {
     box-shadow: 0 0.1rem 0.4rem white
 }
 
+.darkmodebody .acordion {
+    background-color: #4646468c;
+}
+
+.darkmodebody .p_acordion {
+    background-color: #4646468c;
+}
+
 body.darkmodebody footer {
     background-color: #4646468c;
 }
@@ -157,6 +184,7 @@ body.darkmodebody footer {
     display: flex;
     justify-content: space-around;
     padding: 40px;
+    margin-top: 5em;
     background-color: rgba(182, 232, 245, 0.815);
 }
 
