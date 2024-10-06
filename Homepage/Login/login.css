@@ -38,8 +38,7 @@ body {
 /* ESTILO BOTONES*/
 
 .imagen_login {
-    padding-top: 1em;
-    border-radius: 1em 3em;
+    padding-top: 2em;
     height: 509px;
     width: 425px;
 }
@@ -83,7 +82,6 @@ input {
 /* CONTENEDOR FLEXBOS PARA CENTRAR TODO*/
 
 .contenedor_padre {
-    border-radius: 5em;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -91,7 +89,8 @@ input {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
     width: 850px;
-    height: 500px;
+    min-width: 400px;
+    height: 511px;
     background: rgba(208, 246, 255, 0.815);
 }
 
@@ -160,7 +159,7 @@ input {
 
 .contenedor_hijo7 {
     grid-column: 6/11;
-    grid-row: 1/11;
+    grid-row: 1/10;
 }
 
 /*IMAGEN*/
@@ -174,7 +173,7 @@ input {
 
 /*///////////////////// RESPONSIVE STYLES /////////////////////*/
 
-@media (max-width: 1000px) {
+@media (max-width: 1280px) {
     .text_contrasena {
         padding: 0;
     }
@@ -235,7 +234,7 @@ input {
     }
 
     .imagen_login {
-        height: 300px;
+        height: 350 px;
         width: 400px;
     }
 
