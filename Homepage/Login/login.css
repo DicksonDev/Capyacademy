@@ -90,7 +90,7 @@ input {
     grid-template-rows: repeat(10, 1fr);
     width: 850px;
     min-width: 400px;
-    height: 511px;
+    height: 500px;
     background: rgba(208, 246, 255, 0.815);
 }
 
@@ -179,7 +179,7 @@ input {
     }
 
     .login_text {
-        padding-bottom: 0;
+        padding-bottom: 1em;
     }
 
     .login {
@@ -188,13 +188,17 @@ input {
     }
 
     .text_correo {
+        margin-left: 12px;
         grid-column: 3/6;
-        grid-row: 3;
+        grid-row: 2;
+        white-space: nowrap;
+        padding-bottom: 1em;
     }
 
     .contenedor_hijo1 {
         grid-column: 3/6;
         grid-row: 4;
+        padding-bottom: 1em;
     }
 
     .contenedor_hijo2 {
@@ -205,6 +209,7 @@ input {
     .contenedor_hijo3 {
         grid-column: 3/6;
         grid-row: 6;
+        padding-bottom: 1em;
     }
 
     .contenedor_hijo4 {
@@ -230,11 +235,11 @@ input {
 
     .contenedor_padre {
         width: 400px;
-        height: 700px;
+        height: 730px;
     }
 
     .imagen_login {
-        height: 350 px;
+        height: 350px;
         width: 400px;
     }
 
